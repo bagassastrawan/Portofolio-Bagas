@@ -26,23 +26,20 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "projects",
   },
   {
-    label: "Contact Me",
+    label: "Contact",
     page: "contact",
   },
 ];
 
 export default function Navbar() {
-  const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
-  const pathname = usePathname();
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white ">
+    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-gray-100 ">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
-              <div className="container flex items-center space-x-2">
+              <div className="container flex items-center space-x-2 text-gray-900">
                 <h2 className="text-2xl font-bold">BagusSastrawan.</h2>
               </div>
             </Link>

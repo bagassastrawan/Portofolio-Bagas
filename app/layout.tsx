@@ -16,12 +16,10 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="bg-slate-300">
-        <ThemeProvider enableSystem={true} attribute="class">
-          <Navbar />
-          {children}
-          <Footer />
-        </ThemeProvider>
+      <body className="bg-slate-200">
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );

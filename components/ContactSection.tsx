@@ -6,28 +6,7 @@ import { useForm, ValidationError } from "@formspree/react";
 function ContactForm() {
   const [state, handleSubmit] = useForm("xdovqdkd");
   if (state.succeeded) {
-    // return (
-    //   // <main>
-    //   //   <body className="bg-[#202203]">
-    //   //     <div className="container px-5 py-2 mx-auto">
-    //   //       <div className="flex flex-wrap -m-4 justify-center">
-    //   //         <div className="p-4 mt-36 w-2/3 sm:w-1/2 lg:w-1/3 bg-[#F1F1F1] rounded-xl">
-    //   //           <h3 className="text-center pb-10">
-    //   //             Thank you for your message. Hope you always have a nice day!
-    //   //           </h3>
-    //   //           <div className="flex items-center flex-wrap justify-center ">
-    //   //             <a href="">
-    //   //               <button className="edu-box hover:cursor-pointer">
-    //   //                 Back to home page
-    //   //               </button>
-    //   //             </a>
-    //   //           </div>
-    //   //         </div>
-    //   //       </div>
-    //   //     </div>
-    //   //   </body>
-    //   // </main>
-    // );
+    location.reload();
   }
 
   return (
