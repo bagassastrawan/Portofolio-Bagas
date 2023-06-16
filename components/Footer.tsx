@@ -1,9 +1,8 @@
 import React from "react";
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
-  AiOutlineLinkedin,
   AiOutlineYoutube,
+  AiOutlineInstagram,
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -25,33 +24,14 @@ const Footer = () => {
               size={30}
             />
           </a>
-          <a
-            href="https://twitter.com/hqasmei"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineTwitter
-              className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-500"
-              size={30}
-            />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/hosnaqasmei/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-500"
-              size={30}
-            />
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA"
-            rel="noreferrer"
-            target="_blank"
-          >
+          <a href="" rel="noreferrer" target="_blank">
             <AiOutlineYoutube
+              className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-500"
+              size={30}
+            />
+          </a>
+          <a href="" rel="noreferrer" target="_blank">
+            <AiOutlineInstagram
               className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-500"
               size={30}
             />
