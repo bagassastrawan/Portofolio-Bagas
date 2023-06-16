@@ -32,7 +32,7 @@ const AboutSection = () => {
               Hi, Introducing Me, I Putu Bagus Sastrawan, a writer who is often
               called Bagus. I live in Teuku Umar Barat, currently I am
               continuing my education at SMKN 1 Denpasar majoring in Software
-              Engineering. I'm currently focusing on developing website design
+              Engineering. Im currently focusing on developing website design
               and want to work part time as a Graphic Designer
             </p>
           </div>
