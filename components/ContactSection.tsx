@@ -31,12 +31,12 @@ function ContactForm() {
   }
 
   return (
-    <section id="contact" className="bg-[#EDEDED] body-font relative">
+    <section id="contact" className=" body-font relative mt-5">
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 className="my-2 text-center font-bold text-2xl md:text-4xl text-[#1E1E1E]">
             CONTACT
-            <hr className="w-12 h-1 mx-auto my-4 bg-[#B19DC5] border-0 rounded"></hr>
+            <hr className="w-12 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
           </h1>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -105,9 +105,9 @@ function ContactForm() {
                     field="message"
                     errors={state.errors}
                   />
-                  <div className="rounded-none bg-slate-300">
+                  <div className="rounded-none justify-item-center">
                     <button
-                      className="send-button"
+                      className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full item-center"
                       type="submit"
                       disabled={state.submitting}
                     >

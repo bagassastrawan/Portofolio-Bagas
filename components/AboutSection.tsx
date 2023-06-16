@@ -29,11 +29,12 @@ const AboutSection = () => {
             <p>Denpasar, 18 Mei 2006 </p>
             <br />
             <p>
-              Hi, Introducing Me, I Putu Bagus Sastrawan, a writer who is often
-              called Bagus. I live in Teuku Umar Barat, currently I am
-              continuing my education at SMKN 1 Denpasar majoring in Software
-              Engineering. Im currently focusing on developing website design
-              and want to work part time as a Graphic Designer
+              Hi, Allow me to introduce myself. My name is Putu Bagus Sastrawan,
+              but most people call me Bagus. I reside in Teuku Umar Barat, and
+              currently pursuing my education at SMKN 1 Denpasar, majoring in
+              Software Engineering. Presently, I am primarily focused on website
+              design development and I aspire to work part-time as a Graphic
+              Designer.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">

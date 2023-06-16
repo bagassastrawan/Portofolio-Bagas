@@ -10,7 +10,7 @@ const projects = [
     description:
       "This website is the first website that I created using the Bootstrap Framework",
     image: "/assets/Project/Topup.png",
-    github: "https://bagassastrawan.github.io/vouchergame.github.io/",
+    github: "https://github.com/bagassastrawan/vouchergame.github.io",
     link: "https://bagassastrawan.github.io/vouchergame.github.io/",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     description:
       "I created this website to fulfill the Pbo assignment from the supervising teacher",
     image: "/assets/Project/cititex-bali.png",
-    github: "https://bagassastrawan.github.io/cititexbali/",
+    github: "https://github.com/bagassastrawan/cititexbali",
     link: "https://bagassastrawan.github.io/cititexbali/",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
       "the first website that utilizes php technology and also bootstrap in its manufacture",
     image: "/assets/Project/bali-tour.png",
     github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    link: "https://bagus-sastrawan.vercel.app/",
   },
 ];
 
