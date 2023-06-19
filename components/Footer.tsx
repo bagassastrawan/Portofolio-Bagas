@@ -24,13 +24,21 @@ const Footer = () => {
               size={30}
             />
           </a>
-          <a href="" rel="noreferrer" target="_blank">
+          <a
+            href="https://youtube.com/@bagass.8079"
+            rel="noreferrer"
+            target="_blank"
+          >
             <AiOutlineYoutube
               className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-500"
               size={30}
             />
           </a>
-          <a href="" rel="noreferrer" target="_blank">
+          <a
+            href="https://instagram.com/bagas.sastrawan?igshid=MzNlNGNkZWQ4Mg=="
+            rel="noreferrer"
+            target="_blank"
+          >
             <AiOutlineInstagram
               className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-500"
               size={30}

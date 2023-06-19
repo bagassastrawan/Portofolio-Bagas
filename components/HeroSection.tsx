@@ -23,7 +23,7 @@ const HeroSection = () => {
           </h3>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
-            <span className="font-semibold text-teal-600">UI/UX Design</span>
+            <span className="font-semibold text-teal-600">UI/UX Design </span>
             is not just what it looks and feels like. But design is about how it
             works.
           </p>
