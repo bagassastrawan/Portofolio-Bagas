@@ -29,7 +29,7 @@ function ContactForm() {
                   autoComplete="off"
                 >
                   <label
-                    className="leading-7 text-sm text-[#1E1E1E]"
+                    className="leading-7 text-lg text-[#1E1E1E]"
                     htmlFor="name"
                   >
                     Name
@@ -48,7 +48,7 @@ function ContactForm() {
                     errors={state.errors}
                   />
                   <label
-                    className="leading-7 text-sm text-[#1E1E1E]"
+                    className="leading-7 text-lg text-[#1E1E1E]"
                     htmlFor="email"
                   >
                     Email
@@ -68,7 +68,7 @@ function ContactForm() {
                   />
                   <label
                     htmlFor="message"
-                    className="leading-7 text-sm text-[#1E1E1E]"
+                    className="leading-7 text-lg text-[#1E1E1E]"
                   >
                     Message
                   </label>
@@ -86,11 +86,11 @@ function ContactForm() {
                   />
                   <div className="rounded-none justify-item-center">
                     <button
-                      className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full item-center"
+                      className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full inline-block w-full mt-5"
                       type="submit"
                       disabled={state.submitting}
                     >
-                      Send
+                      Submit
                     </button>
                   </div>
                 </form>
