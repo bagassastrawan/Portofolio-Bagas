@@ -9,7 +9,7 @@ const projects = [
     name: "Buyapin",
     description:
       "This website is the first website that I created using the Bootstrap Framework",
-    image: "/assets/Project/Topup.png",
+    image: "/assets/Project/buyapin.png",
     github: "https://github.com/bagassastrawan/vouchergame.github.io",
     link: "https://bagassastrawan.github.io/vouchergame.github.io/",
   },
@@ -17,7 +17,7 @@ const projects = [
     name: "Citbal",
     description:
       "I created this website to fulfill the Pbo assignment from the supervising teacher",
-    image: "/assets/Project/cititex-bali.png",
+    image: "/assets/Project/citbal.png",
     github: "https://github.com/bagassastrawan/cititexbali",
     link: "https://bagassastrawan.github.io/cititexbali/",
   },
@@ -52,7 +52,7 @@ const ProjectsSection = () => {
                         alt=""
                         width={1000}
                         height={1000}
-                        className="rounded-xl shadow-xl hover:opacity-70"
+                        className="md:mt-10"
                       />
                     </Link>
                   </div>
