@@ -25,7 +25,7 @@ const projects = [
     name: "Balitour",
     description:
       "the first website that utilizes php technology and also bootstrap in its manufacture",
-    image: "/assets/Project/bali-tour.png",
+    image: "/assets/Project/balitour.png",
     github: "",
     link: "http://fsbal.infinityfreeapp.com/index.php",
   },
