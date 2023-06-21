@@ -1,6 +1,9 @@
+import AboutSection from "@/components/AboutSection"
+
 describe('template spec', () => {
   it('passes', () => {
     cy.visit('https://bagus-sastrawan.vercel.app/')
-    cy.viewport('iphone-8')
+    cy.contains('About').click
+    cy.go('back')
   })
 })
