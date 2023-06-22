@@ -46,7 +46,7 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={project.link}>
+                    <Link id="img-to-project" href={project.link}>
                       <Image
                         src={project.image}
                         alt=""
@@ -62,13 +62,13 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
+                      <Link id="link-github" href={project.github} target="_blank">
                         <BsGithub
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link>
-                      <Link href={project.link} target="_blank">
+                      <Link id="link-to-project" href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"

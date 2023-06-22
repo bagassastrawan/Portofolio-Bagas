@@ -29,3 +29,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+.edu-box {
+  --bg: #1e1e1e;
+  --hover-bg: #b19dc5;
+  --hover-text: #1e1e1e;
+  color: #d9d9d9;
+  border: 1px solid var(--bg);
+  padding: 0.8em 2em;
+  font-weight: 600;
+  margin: 5px;
+  border-radius: 4px;
+  background: var(--bg);
+  transition: 0.2s;
+  cursor: default;
+}

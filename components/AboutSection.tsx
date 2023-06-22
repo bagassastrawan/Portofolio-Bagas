@@ -24,12 +24,12 @@ const AboutSection = () => {
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
-            <h1 className="text-center text-3xl font-bold mb-6 md:text-left">
+            <h1 className="text-center text-3xl font-bold mb-6 md:text-left mt-5">
               Bagus Sastrawan
             </h1>
             <p className="text-xl">Denpasar, 18 Mei 2006 </p>
             <br />
-            <p className="text-lg">
+            <p className="text-xl">
               Hi, Allow me to introduce myself. My name is Putu Bagus Sastrawan,
               but most people call me Bagus. I reside in Teuku Umar Barat, and
               currently pursuing my education at SMKN 1 Denpasar, majoring in

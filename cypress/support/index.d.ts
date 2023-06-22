@@ -1,6 +1,9 @@
 declare namespace Cypress {
-    interface Chainable {
-      mount(): Chainable<any>
-    }
+  interface Chainable<Subject = any> {
+    Form(data: {
+      Name: string;
+      Email: string;
+      Message: string;
+    }): Chainable<Subject>;
   }
-  
+}
