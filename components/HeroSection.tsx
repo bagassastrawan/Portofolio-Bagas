@@ -36,7 +36,7 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            Get to know me
+            Independent Projects
           </Link>
         </div>
       </div>

@@ -3,15 +3,17 @@ import {
   AiOutlineGithub,
   AiOutlineYoutube,
   AiOutlineInstagram,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="">
-      <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-600 border-0"></hr>
-      <div className="mx-auto  p-4 flex flex-col text-center text-neutral-5 md:flex-row md:justify-between">
-        <div className="flex flex-row items-center justify-center space-x-1  text-gray-700 font-bold">
-          © 2023 Bagus Sastrawan.<a href="/" className="hover:underline"></a>
+    <footer className="bg-gray-200">
+      <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-900 border-0"></hr>
+      <div className="mx-auto p-5 flex flex-col text-center text-neutral-10">
+        <div className="flex flex-row items-center justify-center space-x-1  text-gray-900 font-bold">
+          Made by Bagus Sastrawan, using Tailwind
+          <a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
@@ -20,7 +22,7 @@ const Footer = () => {
             target="_blank"
           >
             <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-600"
+              className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-900"
               size={30}
             />
           </a>
@@ -30,7 +32,7 @@ const Footer = () => {
             target="_blank"
           >
             <AiOutlineYoutube
-              className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-600"
+              className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-900"
               size={30}
             />
           </a>
@@ -40,7 +42,17 @@ const Footer = () => {
             target="_blank"
           >
             <AiOutlineInstagram
-              className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-600"
+              className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-900"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://wa.me/+6285792565901?"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineWhatsApp
+              className="hover:-translate-y-1 transition-transform cursor-pointer  text-gray-900"
               size={30}
             />
           </a>

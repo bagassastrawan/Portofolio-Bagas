@@ -34,10 +34,10 @@ function ContactForm() {
   }
 
   return (
-    <section id="contact" className=" body-font relative mt-5">
-      <div className="container px-5 py-10 mx-auto">
+    <section id="contact" className=" body-font relative">
+      <div className="container px-5 py-10 mx-auto my-40">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="my-2 text-center font-bold text-2xl md:text-4xl text-[#1E1E1E]">
+          <h1 className=" text-center font-bold text-3xl md:text-4xl text-[#1E1E1E]">
             CONTACT
             <hr className="w-12 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
           </h1>
