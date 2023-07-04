@@ -29,6 +29,14 @@ const projects = [
     github: "",
     link: "http://fsbal.infinityfreeapp.com/index.php",
   },
+  {
+    name: "Sports equipment",
+    description:
+      "An e-comerece website that sells sports products to fulfill PWPB duties",
+    image: "/assets/Project/perlengkapan-olahraga.png",
+    github: "https://github.com/bagassastrawan/Perlengkapan_Olahraga",
+    link: "https://bagassastrawan.github.io/Perlengkapan_Olahraga/",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -46,7 +54,7 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link id="img-to-project" href={project.link}>
+                    <Link id="img-project" href={project.link}>
                       <Image
                         src={project.image}
                         alt=""
@@ -62,13 +70,21 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link id="link-github" href={project.github} target="_blank">
+                      <Link
+                        id="code-github"
+                        href={project.github}
+                        target="_blank"
+                      >
                         <BsGithub
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link>
-                      <Link id="link-to-project" href={project.link} target="_blank">
+                      <Link
+                        id="link-project"
+                        href={project.link}
+                        target="_blank"
+                      >
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"

@@ -37,14 +37,27 @@ import cypress from "cypress";
 //       visit(originalFn: CommandOriginalFn, url: string, options: Partial<VisitOptions>): Chainable<Element>
 //     }
 //   }
-// commands.ts
-Cypress.Commands.add("Form", ({ Name, Email, Message }) => {
-  cy.get("#name").type(Name);
-  cy.get("#email").type(Email);
-  cy.get("#message").type(Message);
-  cy.get("#submit-button").click();
-  cy.get("#button").click();
-});
+
+
+
+
+
+
+  // cy.get("#email").type(Email);
+  // cy.get("#message").type(Message);
+  // cy.get("#submit-button").click();
+  // cy.get("#button").click();
+
+
+
+
+
+// cy.get('div').then(('divElement) => {
+
+//   cy.wrap('divElement).within(() => {
+//   cy.get('#name').type(Name)
+//   })
+//   })
 
 // Cypress.Commands.add("submitForm", ({name,email,message}) => {
 //     cy.get("#name-input").type(name);

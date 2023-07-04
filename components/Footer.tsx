@@ -17,6 +17,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
+            id="button-github"
             href="https://github.com/bagassastrawan"
             rel="noreferrer"
             target="_blank"
@@ -27,6 +28,7 @@ const Footer = () => {
             />
           </a>
           <a
+            id="button-youtube"
             href="https://youtube.com/@bagass.8079"
             rel="noreferrer"
             target="_blank"
@@ -37,6 +39,7 @@ const Footer = () => {
             />
           </a>
           <a
+            id="button-instagram"
             href="https://instagram.com/bagas.sastrawan?igshid=MzNlNGNkZWQ4Mg=="
             rel="noreferrer"
             target="_blank"
@@ -47,6 +50,7 @@ const Footer = () => {
             />
           </a>
           <a
+            id="button-whastapp"
             href="https://wa.me/+6285792565901?"
             rel="noreferrer"
             target="_blank"

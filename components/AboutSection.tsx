@@ -1,16 +1,17 @@
 import React from "react";
 import Image from "next/image";
 
-const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "Figma" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Bootstrap" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
-  { skill: "GitHub" },
+const skills: string[] = [
+  "Html",
+  "Css",
+  "React",
+  "Next.js",
+  "Bootstrap",
+  "Tailwind",
+  "Git",
+  "Github",
+  "Mysql",
+  "Figma"
 ];
 
 const AboutSection = () => {
@@ -41,13 +42,13 @@ const AboutSection = () => {
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-3xl font-bold mb-6">My Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-              {skills.map((item, idx) => {
+              {skills.map((item: string, idx: number) => {
                 return (
                   <p
                     key={idx}
                     className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-950 rounded font-semibold"
                   >
-                    {item.skill}
+                    {item}
                   </p>
                 );
               })}
@@ -57,7 +58,7 @@ const AboutSection = () => {
               alt=""
               width={300}
               height={300}
-              className="hidden md:block "
+              className="hidden md:block mt-5 ml-10"
             />
           </div>
         </div>

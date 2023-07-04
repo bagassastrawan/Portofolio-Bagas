@@ -100,8 +100,8 @@ function ContactForm() {
                     className="w-full bg-[#1D202B] rounded border border-[#4E597A] focus:border-[#20232E] focus:bg-[#15171E] focus:ring-2 focus:ring-[#B19DC5] h-32 text-base outline-none text-[#EDEDED] py-1 px-3 leading-6 transition-colors duration-200 ease-in-out"
                     placeholder="Insert your message"
                     required
-                    id="message"
                     name="message"
+                    id="message"
                   />
                   <ValidationError
                     prefix="Message"
